@@ -1,7 +1,7 @@
 import React from 'react';
 import InstaService from '../services/instaService';
-import User from './User';
-import ErrorMessage from './Error'
+import ErrorMessage from './Error';
+import Post from './Post';
 
 export default class Posts extends React.Component {
     InstaService = new InstaService();
@@ -36,23 +36,16 @@ export default class Posts extends React.Component {
 
     renderItems(arr) {
         return arr.map(item => {
-            const {name, altname, photo, src, alt, descr, id} = item;
-
             return (
-                <div key={id} className="post">
-                    <User 
-                    src={photo} 
-                    alt={altname} 
-                    name={name} 
-                    min />
-                    <img src={src} alt={alt} />
-                    <div className="post__name">
-                        {name}
-                    </div>
-                    <div className="post__descr">
-                        {descr}
-                    </div>
-                </div>
+                <Post 
+                name={item.name} 
+                altname={item.altname} 
+                photo={item.photo} 
+                src={item.src} 
+                alt={item.alt} 
+                descr={item.descr} 
+                id={item.id} 
+                />
             )
         })
     }
