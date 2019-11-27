@@ -1,3 +1,11 @@
+## Тестовое React-приложение: Instagram
+### Что используется / применяется: 
+SPA-приложение, то есть верстка одной страницы. Крупных компонента два - лента и профиль.
+
+Переключение между страницами сделано с помощью react-router.
+
+В самой верстке практически везде, где можно, применяется переиспользование компонентов.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
