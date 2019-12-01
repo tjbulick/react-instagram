@@ -6,6 +6,8 @@ SPA-приложение, то есть верстка одной страниц
 
 В самой верстке практически везде, где можно, применяется переиспользование компонентов.
 
+Данные подгружаются асинхронно из базы данных. В качестве примера на dev-сервере использовался json-server с файлом src/posts.json
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
