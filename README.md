@@ -8,6 +8,13 @@ SPA-приложение, то есть верстка одной страниц
 
 Данные подгружаются асинхронно из базы данных. В качестве примера на dev-сервере использовался json-server с файлом src/posts.json
 
+## Запуск локально
+```
+$ npm install -g json-server
+$ json-server --watch src/posts.json --port=PORT_NUMBER
+$ npm start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
