@@ -23,6 +23,8 @@ $ npm start
 ```
 Теперь локальный сервер с самим приложением запущен. Вкладка с приложением должна открыться автоматически.
 
+Выглядит примерно так: ![alt](./react-instagram.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
